@@ -5,29 +5,24 @@
 package com.javamsdt.service;
 
 import com.javamsdt.model.User;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
 class UserSerializeDeserializeTest {
-  // private static final String PATH = "Module 4 Tasks/01 - SerializeDeserialize/serializeDeserialize/src/test/resources/files/user.txt";
-  private static final String PATH = "";
+  private static final Path resourceDirectory = Paths.get("src", "test", "resources");
+  private static final String PATH = resourceDirectory.toAbsolutePath() + "/files/user.txt";
 
   User user = new User(2, "UserTwo", 25, "user@user.com", LocalDate.now().minusYears(25));
   UserSerializeDeserialize userSerializeDeserialize = new UserSerializeDeserialize();
 
-  @BeforeEach
-  void setUp() {
-
-  }
-
-  @AfterEach
-  void tearDown() {
-  }
-
   @Test
+  @Order(1)
   void serializeUser() {
     // Given
     userSerializeDeserialize.serializeUser(user, PATH);
@@ -39,6 +34,12 @@ class UserSerializeDeserializeTest {
   }
 
   @Test
+  @Order(2)
   void deSerializeUser() {
+    // When
+    User expectedUser = userSerializeDeserialize.deSerializeUser(PATH);
+
+    // Then
+    Assertions.assertEquals(expectedUser.getFullName(), user.getFullName());
   }
 }
