@@ -1,5 +1,7 @@
 package org.javamsdt.model;
 
+import org.javamsdt.model.enums.Category;
+
 /**
  * Created by maksym_govorischev.
  */
@@ -27,9 +29,5 @@ public interface Ticket {
   int getPlace();
 
   void setPlace(int place);
-
-  enum Category {
-    STANDARD, PREMIUM, BAR
-  }
 
 }

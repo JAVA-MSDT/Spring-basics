@@ -5,6 +5,7 @@ import java.util.List;
 import org.javamsdt.model.Event;
 import org.javamsdt.model.Ticket;
 import org.javamsdt.model.User;
+import org.javamsdt.model.enums.Category;
 
 /**
  * Groups together all operations related to tickets booking.
@@ -111,7 +112,7 @@ public interface BookingFacade {
    * @return Booked ticket object.
    * @throws java.lang.IllegalStateException if this place has already been booked.
    */
-  Ticket bookTicket(long userId, long eventId, int place, Ticket.Category category);
+  Ticket bookTicket(long userId, long eventId, int place, Category category);
 
   /**
    * Get all booked tickets for specified user. Tickets should be sorted by event date in descending order.
