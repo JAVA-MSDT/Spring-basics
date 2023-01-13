@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by maksym_govorischev.
  */
-public interface Event {
+public interface Event extends EventModel {
   /**
    * Event id. UNIQUE.
    * @return Event Id

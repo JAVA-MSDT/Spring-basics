@@ -5,7 +5,7 @@ import org.javamsdt.model.enums.Category;
 /**
  * Created by maksym_govorischev.
  */
-public interface Ticket {
+public interface Ticket extends EventModel{
   /**
    * Ticket Id. UNIQUE.
    * @return Ticket Id.

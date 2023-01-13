@@ -3,7 +3,7 @@ package org.javamsdt.model;
 /**
  * Created by maksym_govorischev on 14/03/14.
  */
-public interface User {
+public interface User extends EventModel{
   /**
    * User Id. UNIQUE.
    * @return User Id.
