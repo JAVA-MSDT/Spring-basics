@@ -1,34 +1,33 @@
 package com.rest.controller;
 
-import com.rest.cloudserviceimpl.service.ServiceServiceImpl;
+import com.rest.cloudserviceimpl.service.SubscriptionServiceImpl;
 import com.rest.dto.dto.SubscriptionRequestDto;
 import com.rest.dto.dto.SubscriptionResponseDto;
 
-import java.util.Collections;
 import java.util.List;
 
-public class ServiceController {
+public class SubscriptionController {
 
-    private ServiceServiceImpl serviceService;
+    private SubscriptionServiceImpl subscriptionService;
 
     public List<SubscriptionResponseDto> getAllSubscription() {
-        return serviceService.getAllSubscription();
+        return subscriptionService.getAllSubscription();
     }
 
     public SubscriptionResponseDto getSubscription(Long subscriptionId) {
-        return serviceService.getSubscription(subscriptionId);
+        return subscriptionService.getSubscription(subscriptionId);
     }
 
     public SubscriptionResponseDto createSubscription(SubscriptionRequestDto subscriptionRequestDto) {
-        return serviceService.createSubscription(subscriptionRequestDto);
+        return subscriptionService.createSubscription(subscriptionRequestDto);
     }
 
     public SubscriptionResponseDto updateSubscription(SubscriptionRequestDto subscriptionRequestDto) {
-        return serviceService.updateSubscription(subscriptionRequestDto);
+        return subscriptionService.updateSubscription(subscriptionRequestDto);
     }
 
     public void deleteSubscription(Long subscriptionId) {
-        serviceService.deleteSubscription(subscriptionId);
+        subscriptionService.deleteSubscription(subscriptionId);
     }
 
 

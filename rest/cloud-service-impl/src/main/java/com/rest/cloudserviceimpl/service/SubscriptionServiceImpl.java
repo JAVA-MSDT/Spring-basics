@@ -2,12 +2,12 @@ package com.rest.cloudserviceimpl.service;
 
 import com.rest.dto.dto.SubscriptionRequestDto;
 import com.rest.dto.dto.SubscriptionResponseDto;
-import com.rest.serviceapi.service.ServiceService;
+import com.rest.serviceapi.service.SubscriptionService;
 
 import java.util.Collections;
 import java.util.List;
 
-public class ServiceServiceImpl implements ServiceService {
+public class SubscriptionServiceImpl implements SubscriptionService {
     @Override
     public List<SubscriptionResponseDto> getAllSubscription() {
         return Collections.emptyList();
