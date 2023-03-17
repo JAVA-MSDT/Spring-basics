@@ -75,6 +75,9 @@
    * Dto contains the modals, DTO objects and converters from Modal to DTO and vice versa.
    * Service-Rest exposing Rest controllers API for Users & Subscriptions.
    * Attached Postman Collection for testing purposes.
+   
+   ![Project Structure](https://github.com/JAVA-MSDT/spring-rest-multi-module/blob/main/rest/assets/ProjectStructure.png)
+   
 ### Running the app
  * For first time you need to run mvn clean install from the project root where is the pom.xml file under rest folder exicts, using command line or maven pugin in your idea.
  * Build a configuration file in your idea to run the application with the follwoing parameters
@@ -82,7 +85,14 @@
    * Module: service-rest
    * Main class: com.rest.Main
    * Vm Option: -Dspring.profiles.active=dev
+   
+   ![Rnu Configuration file](https://github.com/JAVA-MSDT/spring-rest-multi-module/blob/main/rest/assets/Configuration_file.png)
+   
  * After run successfully you need to do the follwoing
    * Import the postman collection (RestApiTask.postman_collection.json) which located under the Postman_collections folder in your project root.
    * you need to save few users first for the first time, becuase of the DB will be empty.
    * you can after that experment with the rest of the apis
+   
+   ![Postman Collection](https://github.com/JAVA-MSDT/spring-rest-multi-module/blob/main/rest/assets/Postman_collections.png)
+   
+   
