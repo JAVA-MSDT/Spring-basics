@@ -41,8 +41,8 @@ public class SubscriptionServiceImpl implements SubscriptionService {
 
     @Override
     public SubscriptionResponseDto createSubscription(SubscriptionRequestDto subscriptionRequestDto) {
-        return subscriptionResponseConverter.convert(subscriptionConverter.convert(subscriptionRequestDto,
-                userService.findUserById(subscriptionRequestDto.getUserId())));
+        return subscriptionResponseConverter.convert(subscriptionRepository.save(subscriptionConverter.convert(subscriptionRequestDto,
+                userService.findUserById(subscriptionRequestDto.getUserId()))));
     }
 
     @Override

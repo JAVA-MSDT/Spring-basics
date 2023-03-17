@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -32,17 +33,17 @@ public class SubscriptionController {
     }
 
     @PostMapping
-    public SubscriptionResponseDto createSubscription(SubscriptionRequestDto subscriptionRequestDto) {
+    public SubscriptionResponseDto createSubscription(@RequestBody SubscriptionRequestDto subscriptionRequestDto) {
         return subscriptionService.createSubscription(subscriptionRequestDto);
     }
 
     @PutMapping
-    public SubscriptionResponseDto updateSubscription(SubscriptionRequestDto subscriptionRequestDto) {
+    public SubscriptionResponseDto updateSubscription(@RequestBody SubscriptionRequestDto subscriptionRequestDto) {
         return subscriptionService.updateSubscription(subscriptionRequestDto);
     }
 
-    @DeleteMapping
-    public boolean deleteSubscription(Long subscriptionId) {
+    @DeleteMapping("/{id}")
+    public boolean deleteSubscription(@PathVariable("id") Long subscriptionId) {
         return subscriptionService.deleteSubscription(subscriptionId);
     }
 
