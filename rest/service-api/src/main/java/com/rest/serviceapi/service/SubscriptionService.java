@@ -1,11 +1,12 @@
 package com.rest.serviceapi.service;
 
+import java.util.List;
+
 import com.rest.dto.dto.SubscriptionRequestDto;
 import com.rest.dto.dto.SubscriptionResponseDto;
 
-import java.util.List;
-
 public interface SubscriptionService {
+
     List<SubscriptionResponseDto> getAllSubscription();
 
     SubscriptionResponseDto getSubscription(Long subscriptionId);
@@ -14,6 +15,6 @@ public interface SubscriptionService {
 
     SubscriptionResponseDto updateSubscription(SubscriptionRequestDto subscriptionRequestDto);
 
-    void deleteSubscription(Long subscriptionId);
+    boolean deleteSubscription(Long subscriptionId);
 
 }

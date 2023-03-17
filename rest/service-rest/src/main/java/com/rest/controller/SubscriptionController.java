@@ -1,34 +1,49 @@
 package com.rest.controller;
 
+import java.util.List;
+
 import com.rest.cloudserviceimpl.service.SubscriptionServiceImpl;
 import com.rest.dto.dto.SubscriptionRequestDto;
 import com.rest.dto.dto.SubscriptionResponseDto;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
+@RestController
+@RequestMapping("/api/v1/subscriptions")
+@RequiredArgsConstructor
 public class SubscriptionController {
 
-    private SubscriptionServiceImpl subscriptionService;
+    private final SubscriptionServiceImpl subscriptionService;
 
+    @GetMapping
     public List<SubscriptionResponseDto> getAllSubscription() {
         return subscriptionService.getAllSubscription();
     }
 
-    public SubscriptionResponseDto getSubscription(Long subscriptionId) {
+    @GetMapping("/{id}")
+    public SubscriptionResponseDto getSubscription(@PathVariable("id") Long subscriptionId) {
         return subscriptionService.getSubscription(subscriptionId);
     }
 
+    @PostMapping
     public SubscriptionResponseDto createSubscription(SubscriptionRequestDto subscriptionRequestDto) {
         return subscriptionService.createSubscription(subscriptionRequestDto);
     }
 
+    @PutMapping
     public SubscriptionResponseDto updateSubscription(SubscriptionRequestDto subscriptionRequestDto) {
         return subscriptionService.updateSubscription(subscriptionRequestDto);
     }
 
-    public void deleteSubscription(Long subscriptionId) {
-        subscriptionService.deleteSubscription(subscriptionId);
+    @DeleteMapping
+    public boolean deleteSubscription(Long subscriptionId) {
+        return subscriptionService.deleteSubscription(subscriptionId);
     }
-
 
 }

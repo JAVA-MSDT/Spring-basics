@@ -1,10 +1,9 @@
 package com.rest.serviceapi.service;
 
+import java.util.List;
+
 import com.rest.dto.dto.UserRequestDto;
 import com.rest.dto.dto.UserResponseDto;
-
-import java.util.Collections;
-import java.util.List;
 
 public interface UserService {
     public List<UserResponseDto> getAllUsers();
