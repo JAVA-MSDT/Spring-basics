@@ -89,10 +89,14 @@
    ![Rnu Configuration file](https://github.com/JAVA-MSDT/spring-rest-multi-module/blob/main/rest/assets/Configuration_file.png)
    
  * After run successfully you need to do the follwoing
+   * Flyway migration tools, is going to migrate 1 file to DB contains 4 users and subscriptions records.
+   * You can find the migration file under the Service-db resources/db/migration
    * Import the postman collection (RestApiTask.postman_collection.json) which located under the Postman_collections folder in your project root.
    * you need to save few users first for the first time, becuase of the DB will be empty.
    * you can after that experment with the rest of the apis
    
    ![Postman Collection](https://github.com/JAVA-MSDT/spring-rest-multi-module/blob/main/rest/assets/Postman_collections.png)
    
-   
+#### Swagger UI
+ * The application has a swagger ui implementation, so you can experiment with visual interaction with the APIs
+ * UI API: /swagger-ui/index.html
