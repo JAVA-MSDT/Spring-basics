@@ -1,9 +1,7 @@
 package com.rest.modelassempler;
 
 import com.rest.controller.SubscriptionController;
-import com.rest.controller.UserController;
 import com.rest.dto.dto.SubscriptionResponseDto;
-import com.rest.dto.dto.UserResponseDto;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.SimpleRepresentationModelAssembler;

@@ -1,8 +1,8 @@
 package com.rest.servicedb.repository;
 
-import java.time.LocalDate;
-
 import com.rest.dto.model.User;
+
+import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

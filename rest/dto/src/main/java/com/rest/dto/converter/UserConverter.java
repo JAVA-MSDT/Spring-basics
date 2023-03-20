@@ -1,11 +1,11 @@
 package com.rest.dto.converter;
 
-import java.time.LocalDate;
-
 import com.rest.dto.dto.UserRequestDto;
 import com.rest.dto.model.User;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
+
+import java.time.LocalDate;
 
 @Component
 public class UserConverter implements Converter<UserRequestDto, User> {

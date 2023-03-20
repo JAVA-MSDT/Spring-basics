@@ -2,8 +2,6 @@ package com.rest.modelassempler;
 
 import com.rest.controller.UserController;
 import com.rest.dto.dto.UserResponseDto;
-import com.rest.dto.model.User;
-import org.hibernate.annotations.Comment;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.SimpleRepresentationModelAssembler;
