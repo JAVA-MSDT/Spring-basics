@@ -18,6 +18,11 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-hateoas</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.rest</groupId>
             <artifactId>dto</artifactId>
             <version>0.0.1-SNAPSHOT</version>
