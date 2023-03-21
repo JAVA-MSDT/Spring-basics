@@ -1,4 +1,4 @@
-package com.rest.cloudserviceimpl.testutil;
+package com.rest.testutil;
 
 import java.time.LocalDate;
 

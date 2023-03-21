@@ -1,13 +1,13 @@
 package com.rest.modelassempler;
 
+import java.util.Objects;
+
 import com.rest.controller.SubscriptionController;
 import com.rest.dto.dto.SubscriptionResponseDto;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.SimpleRepresentationModelAssembler;
 import org.springframework.stereotype.Component;
-
-import java.util.Objects;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
