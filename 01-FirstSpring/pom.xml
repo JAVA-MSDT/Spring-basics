@@ -3,22 +3,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-<<<<<<< HEAD
-  <groupId>com.serenityspringioc</groupId>
-  <artifactId>SpringIoc</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
-
-  <name>SpringIoc Maven Webapp</name>
-=======
   <groupId>com.serenity.firstSpring</groupId>
   <artifactId>firstSpring</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
-
   <name>firstSpring Maven Webapp</name>
->>>>>>> firstSpring/unify
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -40,18 +29,13 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-<<<<<<< HEAD
       <version>6.1.14</version>
-=======
-      <version>6.0.16</version>
->>>>>>> firstSpring/unify
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-<<<<<<< HEAD
       <version>6.1.14</version>
     </dependency>
 
@@ -64,23 +48,7 @@
   </dependencies>
 
   <build>
-    <finalName>SpringIoc</finalName>
-=======
-      <version>5.2.22.RELEASE</version>
-    </dependency>
-
-      <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
-      <dependency>
-          <groupId>org.springframework</groupId>
-          <artifactId>spring-context</artifactId>
-          <version>5.2.22.RELEASE</version>
-      </dependency>
-
-  </dependencies>
-
-  <build>
     <finalName>firstSpring</finalName>
->>>>>>> firstSpring/unify
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

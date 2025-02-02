@@ -7,17 +7,6 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-<<<<<<< HEAD
-    <bean id="movieType" class="com.serenity.springioc.bean.ActionMovie">
-    </bean>
-
-    <!-- Dependency injection using applicationContext not in runner-->
-    <bean id="moviePlayer" class="com.serenity.springioc.bean.MoviePlayer">
-        <constructor-arg ref="movieType"/>
-    </bean>
-
-
-=======
     <bean id="person"
           class="com.serenity.firstSpring.bean.Person">
         <constructor-arg index="0" value="1"/>
@@ -29,6 +18,4 @@
         <constructor-arg index="0" value="2"/>
         <constructor-arg index="1" value="Anastasia"/>
     </bean>
-
->>>>>>> firstSpring/unify
 </beans>
