@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# SpringIoc
-Dependency injection using java code and spring xml application context xml
-Spring IoC ( Invertion of control )
-
-using Xml Applivation Context or Java Code for Dependency Injection
-=======
 # firstSpring
 Creating Bean using applicationContext xml file.
 
@@ -27,4 +20,3 @@ Person class.
 which located inside resources directory.
 
 6 - Then use that object to creat the new person bean object.
->>>>>>> firstSpring/unify
