@@ -1,0 +1,488 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Wake Dreschler",
+      "email": "wdreschler0@yandex.ru"
+    },
+    {
+      "id": 2,
+      "name": "Willy Aurelius",
+      "email": "waurelius1@naver.com"
+    },
+    {
+      "id": 3,
+      "name": "Farrell Cantle",
+      "email": "fcantle2@tripadvisor.com"
+    },
+    {
+      "id": 4,
+      "name": "Hazlett Tyrie",
+      "email": "htyrie3@alibaba.com"
+    },
+    {
+      "id": 5,
+      "name": "Peyter Attewill",
+      "email": "pattewill4@who.int"
+    },
+    {
+      "id": 6,
+      "name": "Gibbie Zmitruk",
+      "email": "gzmitruk5@wisc.edu"
+    },
+    {
+      "id": 7,
+      "name": "Ivy Swaddle",
+      "email": "iswaddle6@zimbio.com"
+    },
+    {
+      "id": 8,
+      "name": "Diahann Studart",
+      "email": "dstudart7@squarespace.com"
+    },
+    {
+      "id": 9,
+      "name": "Edlin Povlsen",
+      "email": "epovlsen8@springer.com"
+    },
+    {
+      "id": 10,
+      "name": "Earl Lemonnier",
+      "email": "elemonnier9@de.vu"
+    },
+    {
+      "id": 11,
+      "name": "Susan Hackin",
+      "email": "shackina@nydailynews.com"
+    },
+    {
+      "id": 12,
+      "name": "Jayme Parkman",
+      "email": "jparkmanb@aol.com"
+    },
+    {
+      "id": 13,
+      "name": "Vale Caveau",
+      "email": "vcaveauc@slashdot.org"
+    },
+    {
+      "id": 14,
+      "name": "Ardath Turrell",
+      "email": "aturrelld@alibaba.com"
+    },
+    {
+      "id": 15,
+      "name": "Farrah Whistan",
+      "email": "fwhistane@discovery.com"
+    },
+    {
+      "id": 16,
+      "name": "Kenon Orring",
+      "email": "korringf@123-reg.co.uk"
+    },
+    {
+      "id": 17,
+      "name": "Pietrek Harkus",
+      "email": "pharkusg@army.mil"
+    },
+    {
+      "id": 18,
+      "name": "Shayne Romeril",
+      "email": "sromerilh@a8.net"
+    },
+    {
+      "id": 19,
+      "name": "Witty Balaam",
+      "email": "wbalaami@loc.gov"
+    },
+    {
+      "id": 20,
+      "name": "Aksel Caldera",
+      "email": "acalderaj@deviantart.com"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Audentes Therapeutics, Inc.",
+      "date": "2022-02-01 18:06:36"
+    },
+    {
+      "id": 2,
+      "title": "Cutera, Inc.",
+      "date": "2022-12-14 08:17:57"
+    },
+    {
+      "id": 3,
+      "title": "Horizon Technology Finance Corporation",
+      "date": "2022-02-19 18:25:01"
+    },
+    {
+      "id": 4,
+      "title": "RenaissanceRe Holdings Ltd.",
+      "date": "2022-02-05 19:58:06"
+    },
+    {
+      "id": 5,
+      "title": "First Trust Municipal CEF Income Opportunity ETF",
+      "date": "2022-03-12 17:54:07"
+    },
+    {
+      "id": 6,
+      "title": "Brinker International, Inc.",
+      "date": "2022-10-06 00:00:41"
+    },
+    {
+      "id": 7,
+      "title": "Verastem, Inc.",
+      "date": "2023-01-02 16:06:25"
+    },
+    {
+      "id": 8,
+      "title": "Cancer Genetics, Inc.",
+      "date": "2022-03-17 01:05:00"
+    },
+    {
+      "id": 9,
+      "title": "CDK Global, Inc.",
+      "date": "2022-11-25 23:00:45"
+    },
+    {
+      "id": 10,
+      "title": "J P Morgan Chase & Co",
+      "date": "2022-11-02 01:15:34"
+    },
+    {
+      "id": 11,
+      "title": "Nuveen New Jersey Quality Municipal Income Fund",
+      "date": "2022-05-14 23:52:28"
+    },
+    {
+      "id": 12,
+      "title": "PowerShares DWA NASDAQ Momentum Portfolio",
+      "date": "2022-04-19 02:45:56"
+    },
+    {
+      "id": 13,
+      "title": "Great Elm Capital Corp.",
+      "date": "2023-01-04 15:55:41"
+    },
+    {
+      "id": 14,
+      "title": "Citigroup Inc.",
+      "date": "2022-06-10 13:32:30"
+    },
+    {
+      "id": 15,
+      "title": "Spartan Motors, Inc.",
+      "date": "2022-02-07 10:07:45"
+    },
+    {
+      "id": 16,
+      "title": "Immune Design Corp.",
+      "date": "2022-05-24 13:44:49"
+    },
+    {
+      "id": 17,
+      "title": "Snap-On Incorporated",
+      "date": "2022-05-19 16:19:25"
+    },
+    {
+      "id": 18,
+      "title": "Monmouth Real Estate Investment Corporation",
+      "date": "2022-12-02 07:21:55"
+    },
+    {
+      "id": 19,
+      "title": "Duff & Phelps Utility & Corporate Bond Trust, Inc.",
+      "date": "2022-12-29 23:28:19"
+    },
+    {
+      "id": 20,
+      "title": "Continental Resources, Inc.",
+      "date": "2022-10-24 23:45:30"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "eventId": 13,
+      "userId": 2,
+      "category": "PREMIUM",
+      "place": 23
+    },
+    {
+      "id": 2,
+      "eventId": 14,
+      "userId": 10,
+      "category": "STANDARD",
+      "place": 35
+    },
+    {
+      "id": 3,
+      "eventId": 2,
+      "userId": 17,
+      "category": "PREMIUM",
+      "place": 25
+    },
+    {
+      "id": 4,
+      "eventId": 4,
+      "userId": 8,
+      "category": "PREMIUM",
+      "place": 74
+    },
+    {
+      "id": 5,
+      "eventId": 15,
+      "userId": 8,
+      "category": "STANDARD",
+      "place": 17
+    },
+    {
+      "id": 6,
+      "eventId": 17,
+      "userId": 11,
+      "category": "STANDARD",
+      "place": 84
+    },
+    {
+      "id": 7,
+      "eventId": 20,
+      "userId": 12,
+      "category": "PREMIUM",
+      "place": 96
+    },
+    {
+      "id": 8,
+      "eventId": 13,
+      "userId": 9,
+      "category": "STANDARD",
+      "place": 2
+    },
+    {
+      "id": 9,
+      "eventId": 10,
+      "userId": 19,
+      "category": "BAR",
+      "place": 36
+    },
+    {
+      "id": 10,
+      "eventId": 18,
+      "userId": 14,
+      "category": "STANDARD",
+      "place": 4
+    },
+    {
+      "id": 11,
+      "eventId": 5,
+      "userId": 18,
+      "category": "PREMIUM",
+      "place": 61
+    },
+    {
+      "id": 12,
+      "eventId": 16,
+      "userId": 20,
+      "category": "BAR",
+      "place": 42
+    },
+    {
+      "id": 13,
+      "eventId": 14,
+      "userId": 6,
+      "category": "PREMIUM",
+      "place": 55
+    },
+    {
+      "id": 14,
+      "eventId": 2,
+      "userId": 16,
+      "category": "PREMIUM",
+      "place": 6
+    },
+    {
+      "id": 15,
+      "eventId": 1,
+      "userId": 13,
+      "category": "STANDARD",
+      "place": 66
+    },
+    {
+      "id": 16,
+      "eventId": 14,
+      "userId": 16,
+      "category": "BAR",
+      "place": 24
+    },
+    {
+      "id": 17,
+      "eventId": 10,
+      "userId": 20,
+      "category": "BAR",
+      "place": 18
+    },
+    {
+      "id": 18,
+      "eventId": 9,
+      "userId": 10,
+      "category": "PREMIUM",
+      "place": 56
+    },
+    {
+      "id": 19,
+      "eventId": 10,
+      "userId": 11,
+      "category": "STANDARD",
+      "place": 53
+    },
+    {
+      "id": 20,
+      "eventId": 10,
+      "userId": 4,
+      "category": "PREMIUM",
+      "place": 16
+    },
+    {
+      "id": 21,
+      "eventId": 19,
+      "userId": 18,
+      "category": "PREMIUM",
+      "place": 2
+    },
+    {
+      "id": 22,
+      "eventId": 14,
+      "userId": 19,
+      "category": "BAR",
+      "place": 37
+    },
+    {
+      "id": 23,
+      "eventId": 7,
+      "userId": 6,
+      "category": "STANDARD",
+      "place": 47
+    },
+    {
+      "id": 24,
+      "eventId": 18,
+      "userId": 17,
+      "category": "BAR",
+      "place": 53
+    },
+    {
+      "id": 25,
+      "eventId": 15,
+      "userId": 1,
+      "category": "STANDARD",
+      "place": 9
+    },
+    {
+      "id": 26,
+      "eventId": 11,
+      "userId": 16,
+      "category": "PREMIUM",
+      "place": 89
+    },
+    {
+      "id": 27,
+      "eventId": 11,
+      "userId": 9,
+      "category": "PREMIUM",
+      "place": 39
+    },
+    {
+      "id": 28,
+      "eventId": 19,
+      "userId": 11,
+      "category": "BAR",
+      "place": 32
+    },
+    {
+      "id": 29,
+      "eventId": 15,
+      "userId": 14,
+      "category": "PREMIUM",
+      "place": 18
+    },
+    {
+      "id": 30,
+      "eventId": 2,
+      "userId": 8,
+      "category": "PREMIUM",
+      "place": 59
+    },
+    {
+      "id": 31,
+      "eventId": 6,
+      "userId": 18,
+      "category": "STANDARD",
+      "place": 41
+    },
+    {
+      "id": 32,
+      "eventId": 14,
+      "userId": 12,
+      "category": "STANDARD",
+      "place": 6
+    },
+    {
+      "id": 33,
+      "eventId": 6,
+      "userId": 1,
+      "category": "STANDARD",
+      "place": 20
+    },
+    {
+      "id": 34,
+      "eventId": 20,
+      "userId": 5,
+      "category": "PREMIUM",
+      "place": 86
+    },
+    {
+      "id": 35,
+      "eventId": 9,
+      "userId": 2,
+      "category": "BAR",
+      "place": 61
+    },
+    {
+      "id": 36,
+      "eventId": 7,
+      "userId": 12,
+      "category": "PREMIUM",
+      "place": 46
+    },
+    {
+      "id": 37,
+      "eventId": 13,
+      "userId": 10,
+      "category": "PREMIUM",
+      "place": 2
+    },
+    {
+      "id": 38,
+      "eventId": 16,
+      "userId": 11,
+      "category": "STANDARD",
+      "place": 78
+    },
+    {
+      "id": 39,
+      "eventId": 3,
+      "userId": 4,
+      "category": "PREMIUM",
+      "place": 57
+    },
+    {
+      "id": 40,
+      "eventId": 20,
+      "userId": 3,
+      "category": "PREMIUM",
+      "place": 98
+    }
+  ]
+}
